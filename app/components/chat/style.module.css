@@ -51,15 +51,13 @@
 }
 
 .textArea {
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-right: 90px;
-  border-radius: 18px;
+  border-radius: 30px;
   line-height: 20px;
-  background-color: #fff;
-  border: 1px solid #e5e7eb;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-  transition: all 0.2s ease;
+  background-color: #f0f0f0 !important;
+  border: 3px solid red !important;
 }
 
 .textArea:hover {
