@@ -17,7 +17,6 @@
   border-radius: 16px;
 }
 
-
 .questionIcon {
   background: url(./icons/default-avatar.jpg);
   background-size: contain;
@@ -52,29 +51,36 @@
 }
 
 .textArea {
-  padding-top: 13px;
-  padding-bottom: 13px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   padding-right: 90px;
-  border-radius: 12px;
+  border-radius: 18px;
   line-height: 20px;
   background-color: #fff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease;
 }
 
 .textArea:hover {
   background-color: #fff;
+  border-color: #d1d5db;
 }
 
-/* .textArea:focus {
-  box-shadow: 0px 3px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
-} */
+.textArea:focus {
+  outline: none;
+  border-color: #93c5fd;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
 
 .count {
-  /* display: none; */
   padding: 0 2px;
 }
 
 .sendBtn {
   background: url(./icons/send.svg) center center no-repeat;
+  border-radius: 10px;
+  transition: all 0.2s ease;
 }
 
 .sendBtn:hover {
